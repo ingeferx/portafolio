@@ -1,0 +1,215 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+
+body {
+    font-family: "Open Sans", Arial, Sans-serif;
+    font-size: 16px;
+}
+
+.contenedor {
+    max-width: 1000px;
+    margin: auto;
+    width: 90%;
+    overflow: hidden;
+}
+
+header {
+    background-size: cover;
+    background-position: 25px;
+    width: 100%;
+    background: url('../imagenes/fondo.jpg') #4aa7dd;
+    height: 600px;
+}
+
+header .contenedor {
+    height: 500px;
+    position: relative;
+   
+}
+
+header .menu {
+    width: 100%;
+    text-align: right;
+}
+
+header .menu a {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    display: inline-block;
+    margin: 40px 20px;
+    text-decoration: none;
+    position: relative;
+}
+
+header .menu a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+
+}
+
+header .texto {
+    width: 46%;
+    color: #ffff;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 260px;
+    margin-bottom: 80px;
+    height: 130px;
+    position: relative;
+    border: 1px solid white;
+    line-height: 20px;
+}
+
+header .texto .nombre {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+header .texto .profesion {
+    font-weight: 200;
+}
+
+
+
+.main .acerca-de .contenedor {
+    overflow: visible;
+    position: relative;
+}
+
+.main .acerca-de .foto {
+    width: 12%;
+    top: -55px;
+    height: 18%;
+    margin-left: 420px;
+    position:relative;
+    overflow: hidden;
+    border-radius: 100%;
+    box-shadow: -1px -5px 20px rgba(255, 255, 255, 0.664)
+}
+
+.main .acerca-de .foto img {
+    vertical-align: top;
+    width: 100%;
+}
+
+.main .acerca-de .texto {
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    width: 100%;
+    position: relative;
+    top: -55px;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
+}
+
+.main .acerca-de .titulo {
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    color: rgb(240, 112, 65);
+    margin-right: 50px;
+}
+
+.main .acerca-de p {
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+
+.main .acerca-de .bold{
+    color:dodgerblue;
+    text-decoration: underline;
+}
+.main .acerca-de .bold:hover{
+    color:rgb(0, 0, 0);
+    text-decoration:none;
+}
+.main .trabajos{
+    background-color: rgba(199, 197, 197, 0.616);
+}
+.main .trabajos .titulo{
+    text-align: center;
+    margin-top: 60px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: 35px;
+    color:rgb(0, 0, 0);
+}
+.main .trabajo{
+    width: 25%;
+    float: left;
+}
+
+.main .trabajo .thumb img {
+    width: 90%;
+    vertical-align: top;
+    
+}
+
+.main .trabajo .descripcion{
+    text-align: center;
+    margin-right: 25px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    font-weight: 300;
+}
+.main .trabajo .nombre{
+    color: #1f80b8;
+    font-weight: 800;
+}
+
+.contacto .contenedor{
+    padding: 50px;
+    width: 100%;
+}
+.contacto .formulario input{
+ width: 48%;
+ float: left;
+ padding: 8px;
+ border: 1px solid rgb(180, 178, 178);
+ margin: 9px;
+}
+.contacto .formulario textarea{
+    width: 98%;
+    border: 1px solid rgb(180, 178, 178);
+    padding: 21px;
+    margin: 9px;
+}
+.contacto .formulario .boton{
+    width: 10%;
+    background-color:#325492;
+    color: #fff;
+    padding: 8px;
+    margin-left: 410px;
+    border: 1px solid white;
+    border-radius: 20px;
+   
+}
+
+.contacto .titulo{
+    color: #4aa7dd;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.redes-sociales{
+    background: #0c1227;
+}
+.redes-sociales .contenedor{
+    padding: 50px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+.redes-sociales a{
+    margin: 50px;
+    color: white;
+}
