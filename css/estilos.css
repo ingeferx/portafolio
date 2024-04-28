@@ -1,3 +1,5 @@
+
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -23,19 +25,8 @@ header {
     background-size: cover;
     background-position: 25px;
     width: 100%;
-    background: url('../imagenes/fondo.jpg') #4aa7dd;
+    background: url('../imagenes/imagenes/fondo.jpg') #4aa7dd;
     height: 600px;
-}
-
-header .contenedor {
-    height: 500px;
-    position: relative;
-   
-}
-
-header .menu {
-    width: 100%;
-    text-align: right;
 }
 
 header .menu a {
@@ -53,6 +44,18 @@ header .menu a:hover {
     text-decoration: underline;
 
 }
+header .contenedor {
+    height: 500px;
+    position: relative;
+   
+}
+
+header .menu {
+    width: 100%;
+    text-align: right;
+}
+
+
 
 header .texto {
     width: 46%;
@@ -83,6 +86,18 @@ header .texto .profesion {
     position: relative;
 }
 
+
+
+.main .acerca-de .texto {
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    width: 100%;
+    position: relative;
+    top: -55px;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
+}
+
 .main .acerca-de .foto {
     width: 12%;
     top: -55px;
@@ -98,17 +113,6 @@ header .texto .profesion {
     vertical-align: top;
     width: 100%;
 }
-
-.main .acerca-de .texto {
-    background: rgb(255, 255, 255);
-    padding: 40px;
-    width: 100%;
-    position: relative;
-    top: -55px;
-    text-align: center;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
-}
-
 .main .acerca-de .titulo {
     font-size: 40px;
     font-weight: 300;
@@ -122,25 +126,7 @@ header .texto .profesion {
     margin-bottom: 15px;
 }
 
-.main .acerca-de .bold{
-    color:dodgerblue;
-    text-decoration: underline;
-}
-.main .acerca-de .bold:hover{
-    color:rgb(0, 0, 0);
-    text-decoration:none;
-}
-.main .trabajos{
-    background-color: rgba(199, 197, 197, 0.616);
-}
-.main .trabajos .titulo{
-    text-align: center;
-    margin-top: 60px;
-    font-weight: 400;
-    margin-bottom: 20px;
-    font-size: 35px;
-    color:rgb(0, 0, 0);
-}
+
 .main .trabajo{
     width: 25%;
     float: left;
@@ -167,6 +153,25 @@ header .texto .profesion {
 .contacto .contenedor{
     padding: 50px;
     width: 100%;
+}
+.main .acerca-de .bold{
+    color:dodgerblue;
+    text-decoration: underline;
+}
+.main .acerca-de .bold:hover{
+    color:rgb(0, 0, 0);
+    text-decoration:none;
+}
+.main .trabajos{
+    background-color: rgba(199, 197, 197, 0.616);
+}
+.main .trabajos .titulo{
+    text-align: center;
+    margin-top: 60px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: 35px;
+    color:rgb(0, 0, 0);
 }
 .contacto .formulario input{
  width: 48%;
@@ -202,6 +207,7 @@ header .texto .profesion {
 
 .redes-sociales{
     background: #0c1227;
+    
 }
 .redes-sociales .contenedor{
     padding: 50px;
@@ -210,6 +216,6 @@ header .texto .profesion {
     color: #fff;
 }
 .redes-sociales a{
-    margin: 50px;
+    margin: 40px;
     color: white;
 }
